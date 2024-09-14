@@ -21,15 +21,17 @@ public static void main(String[] args) {
     label.setOpaque(true);//display the background color
     label.setVerticalAlignment(JLabel.CENTER);//set the vertical alignment of both text and image
     label.setHorizontalAlignment(JLabel.CENTER);//set  the horizontal alignment of both text and image
-    label.setBounds(0,0,250,250);//sets the position  of the label(x,y,width,height)
+    // label.setBounds(0,0,250,250);//sets the position  of the label(x,y,width,height)
     JFrame frame = new JFrame();
     frame.setTitle("MLabel frame");
-    frame.setSize(500,500);
-    frame.setLayout(null);
+    // frame.setSize(500,500);
+    // frame.setLayout(null);
     // frame.setResizable(false);
     // frame.getContentPane().setBackground(new Color(0,255,255));
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
     frame.add(label);
+    frame.pack();//sets the size of frame to meet the size of the components in it
+
 }
 }
