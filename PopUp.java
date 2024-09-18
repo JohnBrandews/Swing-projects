@@ -6,10 +6,10 @@ public class PopUp{
         // JOptionPane.showMessageDialog(null,"a plain message","pop up",JOptionPane.PLAIN_MESSAGE);
         // JOptionPane.showMessageDialog(null,"a information message","pop up",JOptionPane.INFORMATION_MESSAGE);
         // JOptionPane.showMessageDialog(null,"a seriously?","pop up",JOptionPane.QUESTION_MESSAGE);
-        while(true) {
-        JOptionPane.showMessageDialog(null,"ayou have a virus","pop up",JOptionPane.WARNING_MESSAGE);
+        // while(true) {
+        // JOptionPane.showMessageDialog(null,"ayou have a virus","pop up",JOptionPane.WARNING_MESSAGE);
             
-        }
+        // }
         // JOptionPane.showMessageDialog(null,"a you need support now !!","pop up",JOptionPane.ERROR_MESSAGE);
 //it brings up a dialog box which acts like a user's response
         // JOptionPane.showConfirmDialog(null,"hello","prompt",JOptionPane.YES_NO_CANCEL_OPTION);
