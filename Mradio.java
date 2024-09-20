@@ -40,8 +40,5 @@ else if(e.getSource() == radio3) {
     System.out.println("ice scream is selected");
 
 }
-else{
-    System.out.println("make a selection please!!");
-}
 }
 }
