@@ -19,7 +19,7 @@ public class Mslider extends JFrame implements ChangeListener {
         slider.setMinorTickSpacing(10);
         //sets the large painticks and the spaces between them
         slider.setPaintTrack(true);
-        slider.setMajorTickSpacing(25);
+        slider.setMajorTickSpacing(25); 
         //makes  the tracks to be visible
         slider.setPaintLabels(true);
         slider.setFont(new Font("MV Boli",Font.PLAIN, 15));
